@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(242, 242, 242);
+  overflow-x: hidden;
+}
+.carousel-slider {
+  display: flex;
+  position: relative;
+}
+.carousel {
+  position: relative;
+}
+#About {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(242, 242, 242);
+  padding: 0 15px;
+  height: auto;
+}
+#Projects {
+  width: 100%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(242, 242, 242);
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#Partner {
+  width: 100%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(242, 242, 242);
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#Recomand {
+  width: 100%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(242, 242, 242);
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#Career {
+  width: 100%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(242, 242, 242);
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#Contact {
+  width: 100%;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(242, 242, 242);
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#Home {
+  box-sizing: border-box;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  padding: 15px 0;
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+}
+.hamburger-menu {
+  margin-right: 20px;
+  display: none;
+}
+.hamburger-bar {
+  position: absolute;
+  top: 0;
+  height: 200vh;
+  width: 80vw;
+  background: #fff;
+  transition: all ease 0.5s;
+  margin-top: -15px;
+  position: fixed;
+}
+.emptyarea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -15px;
+  height: 200vh;
+  width: 100vw;
+  background: #00000090;
+}
+@media screen and (max-width: 1070px) {
+  .hamburger-menu {
+    display: block;
+  }
+  .hamburger-bar {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  #Home {
+    width: 100%;
+  }
+  .hamburger-bar {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hamburger-bar {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hamburger-bar {
+    width: 80vw;
+  }
+}
